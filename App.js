@@ -22,7 +22,7 @@ const Stack = createNativeStackNavigator();
       alert("Erro de usuário ou senha")
     }
   }
-*/
+  */
 function HomeScreen({ navigation }) {
   return (
 
@@ -53,6 +53,7 @@ function HomeScreen({ navigation }) {
         icon="lock"
         mode="contained"
         color="black"
+        //onPress={this.autenticar}>
         onPress={() => navigation.push('Inicio')}>
         Entrar
       </Button>
